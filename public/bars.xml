@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<creature planet="Earth" species="Homo sapiens">  
+  <name>Jing Jing</name>
+  <height>short</height>
+  <weight>light</weight>
+  <gender>girl</gender>
+  <language>Russian</language>
+  <continent>North America</continent>
+  <race>mixed</race>
+  <epoch>anthropocene</epoch>
+</creature>

@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Jing Jing's Math Portal</title>
+	<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.img {
+    border:5px solid green;
+    vertical-align:middle;
+    margin:20px 0px;	   
+}
+
+/*style="border:5px solid black"*/
+</style>
+	
+    </head>
+    <body id="main">
+      <header>
+	<h2>Geometry 1</h2>
+      </header>
+      <section>
+	<nav>
+	  <h2>Theory</h2>
+	  <h3>Trianges</h3>
+          <ul>
+	   <li><a href="#img1">3 Side Similarity Theorem (triangles)</a></li>
+	   <li><a href="#img2">3 Sides Triangle Congruence Theorem</a></li>
+	   <li><a href="#img3">Angle Angle Side congruence Theorem</a></li>
+	   <li><a href="#img4">Angle-Side-Angle Congruence Theorem</a></li>
+	   <li><a href="#img13">Hinge Theorems</a></li>
+	   <li><a href="#img14">Hypotenuse-Leg Congruence Theorem</a></li>
+	   <li><a href="#img22">Midsegment of a Triangle definition</a></li>
+	   <li><a href="#img33">Side-Angle-Side Similarity Theorem (triangles)</a></li>
+	   <li><a href="#img45">Triangle Area with sine</a></li>
+	   <li><a href="#img46">Triangle Bisector theorem</a></li>
+	   <li><a href="#img47">Triangle Inequality Theorem</a></li>
+	   <li><a href="#img48">Triangle Longer Side, Triangle Larger Angle theorems</a></li>
+	   <li><a href="#img49">Triangle Midsegment Theorem</a></li>
+	   <li><a href="#img50">Triangle Proportionality Theorem and converse</a></li>
+	  </ul>
+	  <h3>Circles</h3>
+	  <ul>
+	   <li><a href="#img5">Angles Inside the Circle, Angles Outside the Circle</a></li>
+	   <li><a href="#img6">Circumscribed Angle Theorem</a></li>
+	   <li><a href="#img15">Inscribed Right Triangle, Inscribed Quadrilateral theorem</a></li>
+	   <li><a href="#img21">Measure of inscribed angle theorem</a></li>
+	   <li><a href="#img30">Segments of Chords theorem</a></li>
+	   <li><a href="#img31">Segments of Secants Theorem</a></li>
+	   <li><a href="#img40">Standard Equation of a Circle</a></li>
+	   <li><a href="#img41">Tangent and intersected chord theorem</a></li>
+	   <li><a href="#img52">inscribed angles of a circle theorem</a></li>
+	  </ul>
+	  <h3>Quadrilaterals</h3>
+	  <ul>
+	    <li><a href="#img17">Isosceles Trapezoid Theorems</a></li>
+	    <li><a href="#img18">Kite Diagonals, Opposite Angles theorems</a></li>
+	    <li><a href="#img23">Parallelograms</a></li>
+	    <li><a href="#img24">Rectangle Diagonals Theorem</a></li>
+	    <li><a href="#img28">Rhombus Diagonals, Opposite Angles theorems</a></li>
+	    <li><a href="#img44">Trapezoid Midsegment Theorem</a></li>
+	  </ul>
+	  <h3>3D</h3>
+	  <ul>
+	    <li><a href="#img7">Cone Volume</a></li>
+	    <li><a href="#img9">Cylinder Volume</a></li>
+	    <li><a href="#img10">Prism Volume</a></li>
+	    <li><a href="#img11">Pyramid Volume</a></li>
+	    <li><a href="#img29">Right Cone Surface Area</a></li>
+	    <li><a href="#img38">Sphere Surface Area</a></li>
+	    <li><a href="#img39">Sphere Volume</a></li>
+	    <li><a href="#img51">Volume of similar solids</a></li>
+	  </ul>	  
+	  <h3>Trigonometry</h3>
+	  <ul>
+	    <li><a href="#img16">Inverse Trigonometric Ratios</a></li>
+	    <li><a href="#img19">Law of Cosines</a></li>
+	    <li><a href="#img20">Law of Sines</a></li>
+	    <li><a href="#img35">Sine and Cosine of Complementary Angles</a></li>
+	    <li><a href="#img45">Triangle Area with sine</a></li>
+	  </ul>
+	  <h3>Transformations/Graphing/Lines</h3>
+	  <ul>
+	    <li><a href="#img8">Coordinate rule for Dilation</a></li>
+	    <li><a href="#img12">Glide reflection definition</a></li>
+	    <li><a href="#img25">Reflection definition</a></li>
+	    <li><a href="#img26">Reflections in Intersecting Lines theorem</a></li>
+	    <li><a href="#img27">Reflections in Parallel Lines theorem</a></li>
+	    <li><a href="#img34">Similarity Transformation</a></li>
+	    <li><a href="#img36">Slopes of perpendicular lines theorem</a></li>
+	    <li><a href="#img42">Three Parralell Lines Theorem</a></li>
+	    <li><a href="#img43">Translations definitions</a></li>
+	  </ul>	    	  	  
+	  <h2>Calculators</h2>	 
+           <ul>
+             <li><a href="pythagor.html">Pythagorean Theorem</a></li>
+             <li><a href="area.html">Area</a></li>
+             <li><a href="volume.html">Volume</a></li>
+             <li><a href="surface.html">Surface Area</a></li>
+             <li><a href="perimeter.html">Perimeter</a></li>
+             <li><a href="circle.html">Circle</a></li>
+             <li><a href="trianglePerimeter.html">Triangle Perimiter</a></li>
+	     <li><a href="gcf.html">Greatest Common Factor</a></li>
+	     <li><a href="arc.html">Arc Length</a></li>
+	     <li><a href="sectorArea.html">Sector Area</a></li>	     	     	     
+           </ul>
+       </nav>
+       <article>
+	 <img id="img1" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/3+Side+Similarity+Theorem+(triangles).png" class="img">
+	 <img id="img2" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/3+Sides+Triangle+Congruence+Theorem.png" class="img">
+	 <img id="img3" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Angle+Angle+Side+congruence+theorem.png" class="img">
+	 <img id="img4" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Angle-Side-Angle+Congruence+Theorem.png" class="img">
+	 <img id="img5" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Angles+Inside+the+Circle,+Angles+Outside+the+Circle+theorems.png" class="img">
+	 <img id="img6" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Circumscribed+Angle+Theorem.png" class="img">
+	 <div>
+	   <img id="img7" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Cone+Volume.png" class="img">
+	   <a href="volume.html">  Volume calculator</a>
+	 </div>
+	 <img id="img8" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Coordinate+rule+for+Dilations.png" class="img">
+	 <img id="img9" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Cylinder+Volume.png" class="img"> <a href="volume.html">Volume</a>
+	 <img id="img10" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Prism+Volume.png" class="img"> <a href="volume.html">Volume</a>
+	 <img id="img11" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Pyramid+Volume.png" class="img"> <a href="volume.html">Volume</a>
+	 <img id="img12" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Glide+reflection+definition.png" class="img">
+	 <img id="img13" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Hinge+Theorems.png" class="img">
+	 <img id="img14" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Hypotenuse-Leg+Congruence+Theorem.png" class="img">
+	 <img id="img15" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Inscribed+Right+Triangle,+Inscribed+Quadrilateral+theorems.png" class="img">
+	 <img id="img16" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Inverse+Trigonometric+Ratios.png" class="img">
+	 <img id="img17" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Isosceles+Trapezoid+Theorems.png" class="img">
+	 <img id="img18" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Kite+Diagonals,+Opposite+Angles+theorems.png" class="img">
+	 <img id="img19" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Law+of+Cosines.png" class="img">
+	 <img id="img20" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Law+of+Sines.png" class="img">
+	 <img id="img21" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Measure+of+inscribed+angle+theorem.png" class="img">
+	 <img id="img22" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Midsegment+of+a+Triangle+definition.png" class="img">
+	 <img id="img23" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Parallelograms.png" class="img">
+	 <img id="img24" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Rectangle+Diagonals+Theorem.png" class="img">
+	 <img id="img25" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Reflection+definition.png" class="img">
+	 <img id="img26" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Reflections+in+Intersecting+Lines+theorem.png" class="img">
+	 <img id="img27" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Reflections+in+Parallel+Lines+theorem.png" class="img">
+	 <img id="img28" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Rhombus+Diagonals,+Opposite+Angles+theorems.png" class="img">
+	 <img id="img29" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Right+Cone+Surface+Area.png" class="img">
+	 <img id="img30" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Segments+of+Chords+theorem.png" class="img">
+	 <img id="img31" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Segments+of+Secants+Theorem.png" class="img">
+	 <img id="img32" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Segments+of+Secants+and+Tangents+theorem.png" class="img">
+	 <img id="img33" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Side-Angle-Side+Similarity+Theorem+(triangles).png" class="img">
+	 <img id="img34" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Similarity+Transformation.png" class="img">
+	 <img id="img35" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Sine+and+Cosine+of+Complementary+Angles.png" class="img">
+	 <img id="img36" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Slopes+of+perpendicular+lines+theorem.png" class="img">
+	 <img id="img38" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Sphere+Surface+Area.png" class="img">
+	 <img id="img39" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Sphere+Volume.png" class="img"> <a href="volume.html">Volume</a>
+	 <img id="img40" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Standard+Equation+of+a+Circle.png" class="img">
+	 <img id="img41" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Tangent+and+intersected+chord+theorem.png" class="img">
+	 <img id="img42" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Three+Parallel+Lines+theorem.png" class="img">
+	 <img id="img43" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Translations+definitions.png" class="img">
+	 <img id="img44" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Trapezoid+Midsegment+Theorem.png" class="img">
+	 <img id="img45" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Triangle+Area+with+sine.png" class="img">
+	 <img id="img46" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Triangle+Bisector+theorem.png" class="img">
+	 <img id="img47" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Triangle+Inequality+Theorem.png" class="img">
+	 <img id="img48" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Triangle+Longer+Side,+Triangle+Larger+Angle+theorems.png" class="img">
+	 <img id="img49" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Triangle+Midsegment+Theorem.png" class="img">
+	 <img id="img50" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Triangle+Proportionality+Theorem+and+converse.png" class="img">
+	 <img id="img51" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/Volume+of+similar+solids.png" class="img">
+	 <img id="img52" src="https://barsik-geometry-1-images.s3-us-west-2.amazonaws.com/images/inscribed+angles+of+a+circle+theorem.png" class="img">
+       </article>
+      </section>
+      <footer>
+        <h2>Useful links</h2>	
+	<ul>
+	  <li><a href="bars.xml">About me</a></li>
+	  <li><a href="https://clever.com">Clever</a></li>
+	  <li><a href="https://bigideaslearning.magicsw.com">Big Ideas</a></li>
+	  <li><a href="https://www.khanacademy.org">Khan Academy</a></li>
+	</ul>
+      </footer>
+    </body>
+</html>
+
